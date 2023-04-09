@@ -1,0 +1,81 @@
+.commands-bg {
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, #091428 0%, #0A1428 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, #091428 0%, #0A1428 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, #091428 0%, #0A1428 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0A1428', endColorstr='#091428', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, #091428 0%, #0A1428 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, #091428 0%, #0A1428 100%);
+
+    height: 50vh;
+}
+
+.commands-contents {
+    margin: 0 25%;
+    padding: 25px;
+    border-radius: 10px;
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 50% 50%, #424549 0%, #282B30 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50% 50%, #424549 0%, #282B30 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50% 50%, #424549 0%, #282B30 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50% 50%, #424549 0%, #282B30 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50% 50%, #424549 0%, #282B30 100%);
+}
+
+.commands-header {
+    display: block;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 75px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+table, th, td {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #A09B8C;
+}
+
+table {
+    border: 2px solid #0AC8B9;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: black;
+}
+
+.header {
+    background-color: #0AC8B9;
+    color: #fff;
+}
+
+.command-name {
+    color: #0AC8B9;
+}
