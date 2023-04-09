@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/leaguescraper/static/css/main.7b543c3e.css",
-    "main.js": "/leaguescraper/static/js/main.79ac4ae9.js",
+    "main.css": "/leaguescraper/static/css/main.ee21e0a7.css",
+    "main.js": "/leaguescraper/static/js/main.bceca57c.js",
     "static/media/matchHistory.png": "/leaguescraper/static/media/matchHistory.35450c753f25e2c08f34.png",
     "static/media/matchSpecifics.png": "/leaguescraper/static/media/matchSpecifics.108ac43771dd3c9985ae.png",
     "static/media/profile.png": "/leaguescraper/static/media/profile.797154eed0b81f14048d.png",
     "static/media/logo.png": "/leaguescraper/static/media/logo.c4a0dafaa375a3d7efe5.png",
     "index.html": "/leaguescraper/index.html",
-    "main.7b543c3e.css.map": "/leaguescraper/static/css/main.7b543c3e.css.map",
-    "main.79ac4ae9.js.map": "/leaguescraper/static/js/main.79ac4ae9.js.map"
+    "main.ee21e0a7.css.map": "/leaguescraper/static/css/main.ee21e0a7.css.map",
+    "main.bceca57c.js.map": "/leaguescraper/static/js/main.bceca57c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b543c3e.css",
-    "static/js/main.79ac4ae9.js"
+    "static/css/main.ee21e0a7.css",
+    "static/js/main.bceca57c.js"
   ]
 }
