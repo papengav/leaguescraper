@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const scrollToAbout = () => {
     window.scrollTo({
-      top: 1500,
+      top: 1000,
       behavior: "smooth"
     });
   }
@@ -24,6 +24,10 @@ const Navbar = () => {
     });
   }
 
+  const buttonClickHandler = () => {
+    alert("LeagueScraper cannot be invited to Discord Servers... yet!");
+  }
+
   return (
     <div className='navbar'>
       <div className='items'>
@@ -32,6 +36,7 @@ const Navbar = () => {
         <p className='navbar-item' onClick={scrollToAbout}>About</p>
         <p className='navbar-item' onClick={scrollToCommands}>Commands</p>
       </div>
+      <button className='navbar-button' onClick={buttonClickHandler}>Get LeagueScraper</button>
     </div>
   );
 }

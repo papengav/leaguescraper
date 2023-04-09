@@ -12,6 +12,8 @@
     height: auto;
     border-radius: 50%;
     border: 2px solid black;
+
+    cursor: pointer;
 }
 
 .items {
@@ -23,6 +25,7 @@
 
 .navbar-item {
     color: #fff;
+    border: none;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 25px;
@@ -31,4 +34,30 @@
 
     margin: 0 1rem;
     cursor: pointer;
+
+    transition-duration: 0.2s;
+}
+
+.navbar-item:hover {
+    border-bottom: 2px solid #0AC8B9;
+}
+
+.navbar-button {
+    background-color: grey;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: None;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: 25px;
+
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.navbar-button:hover {
+    color: #0AC8B9;
+    border: 5px solid #0AC8B9;
 }
