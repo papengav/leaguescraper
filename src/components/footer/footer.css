@@ -19,6 +19,7 @@
 
 .footer-content {
     font-family: var(--font-family);
+    font-size: 10px;
     color: #fff;
 
 }
