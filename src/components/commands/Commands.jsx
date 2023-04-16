@@ -23,7 +23,12 @@ const Commands = () => {
               <th>Get a Summoner's match history, additional dropdowns allow the inspection of specific matches, and related data</th>
             </tr>
             <tr>
-              <th className='command-name'>/help</th>
+              <th className='command-name'>/invite</th>
+              <th>None</th>
+              <th>Get LeagueScraper's invite link</th>
+            </tr>
+            <tr>
+              <th className='command-name'>/leaguescraper</th>
               <th>None</th>
               <th>Get an explanation of LeagueScraper's functionality</th>
             </tr>

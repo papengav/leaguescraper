@@ -2,6 +2,8 @@ import React from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
 
+const inviteLink = "https://discord.com/api/oauth2/authorize?client_id=1044453194413129819&permissions=8&scope=bot%20applications.commands"
+
 const Navbar = () => {
   const scrollToOverview = () => {
     window.scrollTo({
@@ -24,10 +26,6 @@ const Navbar = () => {
     });
   }
 
-  const buttonClickHandler = () => {
-    alert("LeagueScraper cannot be invited to Discord Servers... yet!");
-  }
-
   return (
     <div className='navbar'>
       <div className='items'>
@@ -36,7 +34,9 @@ const Navbar = () => {
         <p className='navbar-item' onClick={scrollToAbout}>About</p>
         <p className='navbar-item' onClick={scrollToCommands}>Commands</p>
       </div>
-      <button className='navbar-button' onClick={buttonClickHandler}>Get LeagueScraper</button>
+      <a href = {inviteLink} target = "_blank" rel = "noreferrer">
+        <button className='navbar-button'>Get LeagueScraper</button>
+      </a>
     </div>
   );
 }
