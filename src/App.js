@@ -5,15 +5,18 @@ import './App.css';
 
 const App = () => {
     return (
-        <div className="App">
-            <div className='navbar__bg'>
-                <Navbar />
+        <>
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+            <div className="App">
+                <div className='navbar__bg'>
+                    <Navbar />
+                </div>
+                <Overview />
+                <About />
+                <Commands />
+                <Footer />
             </div>
-            <Overview />
-            <About />
-            <Commands />
-            <Footer />
-        </div>
+        </>
     )
 }
 

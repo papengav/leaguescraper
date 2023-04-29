@@ -1,3 +1,7 @@
+html {
+    line-height: 1.5;
+}
+
 .commands-bg {
     /* ff 3.6+ */
     background:-moz-linear-gradient(90deg, #091428 0%, #0A1428 100%); 
@@ -59,6 +63,9 @@ table, th, td {
 }
 
 table {
+    width: 100%;
+    overflow-x: auto;
+
     border: 2px solid #0AC8B9;
     border-collapse: collapse;
 }
@@ -78,4 +85,28 @@ th, td {
 
 .command-name {
     color: #0AC8B9;
+}
+
+@media screen and (max-width: 850px) {
+    th, td {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .header {
+        font-size: 12px;
+    }
+
+    .commands-contents {
+        margin: 0 5%;
+        margin-top: 20%
+    }
+
+    .commands-header {
+        font-size: 40px;
+    }
+
+    .command-name {
+        font-size: 14px;
+    }
 }

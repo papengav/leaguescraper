@@ -41,12 +41,12 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 5rem 0rem;
+    padding: 5rem 0;
 }
 
 .card {
     padding: 1rem 1rem;
-    max-width: 25%;
+    max-width: 30%;
     flex: 1;
     background-color: #36393e;
 
@@ -70,4 +70,27 @@
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+@media screen and (max-width: 850px) {
+    
+    .overview-header {
+        font-size: 50px;
+    }
+    
+    .overview-cards {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .card {
+        padding: 2rem;
+        max-width: 100%;
+        margin-bottom: 2rem;
+        background-color: #36393e;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+        transition: 0.3s;
+        border-radius: 10px;
+    }
 }

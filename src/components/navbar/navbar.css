@@ -61,3 +61,28 @@
     color: #0AC8B9;
     border: 5px solid #0AC8B9;
 }
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .logo {
+        margin-bottom: 10%;
+    }
+
+    .navbar-item {
+        margin-right: 0;
+        margin-bottom: 10%;
+    }
+}
