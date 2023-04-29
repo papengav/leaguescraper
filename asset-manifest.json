@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/leaguescraper/static/css/main.e157b578.css",
+    "main.css": "/leaguescraper/static/css/main.ba1d8dd3.css",
     "main.js": "/leaguescraper/static/js/main.c0005346.js",
     "static/media/matchHistory.png": "/leaguescraper/static/media/matchHistory.35450c753f25e2c08f34.png",
     "static/media/matchSpecifics.png": "/leaguescraper/static/media/matchSpecifics.108ac43771dd3c9985ae.png",
     "static/media/profile.png": "/leaguescraper/static/media/profile.797154eed0b81f14048d.png",
     "static/media/logo.png": "/leaguescraper/static/media/logo.c4a0dafaa375a3d7efe5.png",
     "index.html": "/leaguescraper/index.html",
-    "main.e157b578.css.map": "/leaguescraper/static/css/main.e157b578.css.map",
+    "main.ba1d8dd3.css.map": "/leaguescraper/static/css/main.ba1d8dd3.css.map",
     "main.c0005346.js.map": "/leaguescraper/static/js/main.c0005346.js.map"
   },
   "entrypoints": [
-    "static/css/main.e157b578.css",
+    "static/css/main.ba1d8dd3.css",
     "static/js/main.c0005346.js"
   ]
 }
