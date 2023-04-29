@@ -88,6 +88,10 @@ th, td {
 }
 
 @media screen and (max-width: 850px) {
+    .commands-bg {
+        height: 100vh;
+    }
+    
     th, td {
         font-size: 12px;
         padding: 5px;
@@ -99,7 +103,6 @@ th, td {
 
     .commands-contents {
         margin: 0 5%;
-        margin-top: 20%
     }
 
     .commands-header {
