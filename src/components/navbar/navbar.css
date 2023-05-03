@@ -25,7 +25,7 @@
 
 .navbar-item {
     color: #fff;
-    border: none;
+    border-bottom: 2px solid #0AC8B9;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 25px;
@@ -39,7 +39,59 @@
 }
 
 .navbar-item:hover {
+    color: #0AC8B9;
+}
+
+.src-dropdown .src-btn {
+    font-size: 25px;
+    border: none;
     border-bottom: 2px solid #0AC8B9;
+    outline: none;
+    color: #fff;
+    background-color: inherit;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.src-dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 175px;
+    background-color: #505050;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    text-transform: capitalize;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.src-dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.src-arrow {
+    color: #fff;
+    font-size: 15px;
+}
+
+.src-btn:hover {
+    color:#0AC8B9;
+}
+
+.src-dropdown:hover .src-dropdown-content {
+    display: block;
+}
+
+.src-dropdown-content a:hover {
+    color: #0AC8B9;
 }
 
 .navbar-button {
